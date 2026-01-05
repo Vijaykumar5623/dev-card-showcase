@@ -8,6 +8,7 @@
     <title>Community Card Showcase</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="Hall of Fame (1).png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
@@ -106,22 +107,27 @@
  <!-- 🔢 CONTRIBUTOR STATS -->
 <section class="stats-container">
     <div class="stat-card">
+        <i class="fas fa-users"></i>
         <span id="totalCount">0</span>
         <p>Total Members</p>
     </div>
     <div class="stat-card">
+        <i class="fas fa-code"></i>
         <span id="devCount">0</span>
         <p>Developers</p>
     </div>
     <div class="stat-card">
+        <i class="fas fa-hands-helping"></i>
         <span id="contributorCount">0</span>
         <p>Contributors</p>
     </div>
     <div class="stat-card">
+        <i class="fas fa-shield-alt"></i>
         <span id="maintainerCount">0</span>
         <p>Maintainers</p>
     </div>
 </section>
+
 <!-- 🔎 FILTER & SORT CONTROLS -->
 <div class="controls">
     <input 
@@ -155,22 +161,64 @@
 
         <!-- ADMIN CARD - Don't modify this card -->
         <div class="card">
-            <img src="images/admin.jpg" alt="Admin Photo" class="card-img">
-            <h2>Project Admin</h2>
-            <span class="role">Maintainer</span>
-            <p>"Welcome to the project! Fork this repo and add your card below."</p>
-            <a href="https://github.com/Jayanta2004" class="card-btn" target="_blank">GitHub</a>
-        </div>
+  <div class="card-img-container">
+    <img src="images/admin.jpg" alt="Admin Photo" class="card-img">
+  </div>
+
+  <div class="card-header">
+    <i class="fas fa-user"></i>
+    <h2>Project Admin</h2>
+  </div>
+
+  <span class="role-badge maintainer">
+    <i class="fas fa-crown"></i>
+    Maintainer
+  </span>
+
+  <div class="card-quote">
+    <i class="fas fa-quote-left"></i>
+    <p>"Welcome to the project! Fork this repo and add your card below."</p>
+    <i class="fas fa-quote-right"></i>
+  </div>
+
+  <a href="https://github.com/Jayanta2004" class="card-btn" target="_blank">
+    <i class="fab fa-github"></i>
+    GitHub Profile
+  </a>
+</div>
+
 
         <!-- 👇 CONTRIBUTORS: START COPYING FROM HERE 👇 -->
         <!-- This is the TEMPLATE card - copy this entire block and paste it below -->
-        <div class="card">
-            <img src="images/user.png" alt="User Photo" class="card-img">
-            <h2>Contributor Name</h2>
-            <span class="role">Developer</span>
-            <p>"I learned how to make a Pull Request today!"</p>
-            <a href="#" class="card-btn" target="_blank">View Profile</a>
-        </div>
+        <!-- 👇 CONTRIBUTORS: START COPYING FROM HERE 👇 -->
+<div class="card">
+  <div class="card-img-container">
+    <img src="images/user.png" alt="User Photo" class="card-img">
+  </div>
+
+  <div class="card-header">
+    <i class="fas fa-user"></i>
+    <h2>Contributor Name</h2>
+  </div>
+
+  <span class="role-badge contributor">
+    <i class="fas fa-code-branch"></i>
+    Contributor
+  </span>
+
+  <div class="card-quote">
+    <i class="fas fa-quote-left"></i>
+    <p>"I learned how to make a Pull Request today!"</p>
+    <i class="fas fa-quote-right"></i>
+  </div>
+
+  <a href="#" class="card-btn" target="_blank">
+    <i class="fab fa-github"></i>
+    View Profile
+  </a>
+</div>
+<!-- 👆 CONTRIBUTORS: END COPYING HERE 👆 -->
+
         <!-- 👆 CONTRIBUTORS: END COPYING HERE 👆 -->
 
         <div class="card">
@@ -610,7 +658,7 @@ function updateContributorStats() {
     let maintainer = 0;
 
     cards.forEach(card => {
-        const role = card.querySelector(".role")?.innerText.toLowerCase();
+        const role = card.querySelector("role-badge")?.innerText.toLowerCase();
 
         if (role.includes("developer")) dev++;
         else if (role.includes("maintainer")) maintainer++;
