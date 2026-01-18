@@ -1721,5 +1721,25 @@
     "name": "PavanKarthik",
     "github": "https://github.com/pavanakarthik12"
   }
+},
+{
+  "title": "Silent Animation Guessing Game 🎞️",
+  "description": "A visual guessing game where users interpret silent animations and identify the situation.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Animation",
+    "Game",
+    "Observation Skills"
+  ],
+  "links": {
+    "live": "./projects/silent-animation-guess-game/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
 }
+
 ]
