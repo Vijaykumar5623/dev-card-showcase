@@ -1536,7 +1536,27 @@
     "name": "Sneha Amballa",
     "github": "https://github.com/your-github-username"
   }
+},
+{
+  "title": "Story-Based Logic Puzzles 🕵️‍♂️",
+  "description": "Detective-style stories where users identify logical fallacies or wrong assumptions.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Logic",
+    "Critical Thinking",
+    "Storytelling"
+  ],
+  "links": {
+    "live": "./projects/story-based-logic-puzzles/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
 }
+
 
 
 ]
