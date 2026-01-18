@@ -1633,6 +1633,8 @@
   }
 },
 {
+  "title": "Interactive Drawing Canvas ✏️",
+  "description": "A hands-on learning canvas for drawing shapes or numbers with instant feedback.",
   "title": "Retro Learning Arcade 🎮",
   "description": "A retro-style educational arcade with mini games like logic puzzles, math challenges, and quizzes.",
 
@@ -1643,6 +1645,12 @@
     "HTML",
     "CSS",
     "JavaScript",
+    "Canvas",
+    "Education",
+    "Interactive Learning"
+  ],
+  "links": {
+    "live": "./projects/interactive-drawing-canvas/index.html"
     "Gamification",
     "Education",
     "Retro UI"
@@ -1653,6 +1661,9 @@
   "author": {
     "name": "Sneha Amballa",
     "github": "https://github.com/your-github-username"
+  }
+}
+
     "Education"
   ],
   "links": {
