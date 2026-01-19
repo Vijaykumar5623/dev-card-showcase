@@ -1455,6 +1455,24 @@
         }
     },
     {
+        "title": "React a gems",
+        "description":"simple game made using html css and javascript ",
+        "tags": [
+            "HTML",
+            "CSS",
+            "Awareness",
+            "Mental Health",
+            "Digital Wellbeing"
+        ],
+        "links": {
+            "live": "./projects/React-a-gems/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
         "title": "URL Shorter",
         "description": "A web application that shortens long URLs into concise, shareable links using a URL shortening service API.",
         "tags": [
@@ -1822,8 +1840,8 @@
             "name": "Sneha Amballa",
             "github": "https://github.com/Sneha-Amballa"
         }
-    }
- },
+    },
+
 {
   "title": "Digital Burnout Awareness 🔥",
   "description": "An awareness page that explains digital burnout, its symptoms, causes, and simple prevention tips.",
@@ -1949,7 +1967,7 @@
     "name": "Sneha Amballa",
     "github": "https://github.com/your-github-username"
   }
-}
+},
 
 {
   "title": "Interactive History Timeline 🕰️",
@@ -2010,9 +2028,6 @@
   }
 },
 
-
-]
-    "Interactive Learning"
 {
     "title":"Interactive Learning",
      "description": "An interactive simulator that demonstrates the consequences of various decisions in real-life scenarios, helping users understand cause and effect relationships.",
@@ -2053,8 +2068,6 @@
 {
   "title": "Silent Animation Guessing Game 🎞️",
   "description": "A visual guessing game where users interpret silent animations and identify the situation.",
-  "title": "Movie Drawing Guess Game 🎬🎨",
-  "description": "A Pictionary-style game where players draw a movie and others guess it.",
   "tags": [
     "HTML",
     "CSS",
@@ -2090,9 +2103,10 @@
   }
 },
 
-
-]
-    "Game",
+{
+"title": "Movie Drawing Guess Game 🎬🎨",
+  "description": "A Pictionary-style game where players draw a movie and others guess it.",
+   "tags":[ "Game",
     "Canvas",
     "Entertainment"
   ],
