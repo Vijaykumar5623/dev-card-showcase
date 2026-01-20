@@ -3924,7 +3924,6 @@
         "github": "https://github.com/Sneha-Amballa"
     }
   },
- },
   {
     "title": "Neural Network Playground",
     "description": "An interactive machine learning visualization built with vanilla JavaScript. Features a custom matrix math engine, real-time training visualization, and architecture configuration to demonstrate neural network internals without external libraries.",
@@ -3962,8 +3961,8 @@
       "name": "Sai",
       "github": "https://github.com/saiusesgithub"
     }
-  }
-},
+  },
+
 {
         "title": "Authentication Flow Visualizer",
         "description": "An interactive educational tool to visualize complex authentication flows (Session, JWT, OAuth) and security attacks (Replay, Expiry, Tampering). Built with vanilla HTML, CSS, and JS.",
@@ -3981,8 +3980,8 @@
             "name": "Sai Srujan",
             "github": "https://github.com/saiusesgithub"
         }
-    }
-  "title": "RageClicker",
+    },
+ { "title": "RageClicker",
   "description": "RageClicker is a fast-paced clicking game that challenges users to test their reaction speed and endurance. It offers instant visual feedback and engaging interactions using pure HTML, CSS, and JavaScript.",
   "tags": [
     "HTML",
@@ -3992,6 +3991,22 @@
   ],
   "links": {
     "live": "./projects/rageClicker/index.html"
+  },
+  "author": {
+    "name": "PavanKarthik",
+    "github": "https://github.com/pavanakarthik12"
+  }
+},
+{
+  "title": "DroidOS",
+  "description": "DroidOS is a browser-based OS-style interface inspired by Android-like systems.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "links": {
+    "live": "./projects/droidos/index.html"
   },
   "author": {
     "name": "PavanKarthik",
